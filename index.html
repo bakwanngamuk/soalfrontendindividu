@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifestyle Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-gradient text-light">
+
+    <!-- Background Particles Animation -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-neon sticky-navbar">
+        <div class="container">
+            <a class="navbar-brand text-neon" href="index.html"><strong>Lifestyle Vibes</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-neon ms-2" href="#subscribe">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5 text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2 class="mb-3 text-neon animate-fade-in">Welcome to the Lifestyle Hub</h2>
+                <p class=" mb-3 text-neon animate-fade-in">Explore trends, wellness, and living your best life with a style that brings you into a world of fitness, mindfulness, and elevated routines.</p>
+
+                <!-- Carousel -->
+                <div id="carouselExample" class="carousel slide carousel-fade my-4"  data-bs-ride="carousel">
+                        <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1544957992-20514f595d6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="d-block w-100 rounded shadow-neon" alt="Wellness lifestyle image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1589125703066-5da8ad0c2cdb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="d-block w-100 rounded shadow-neon" alt="Wellness lifestyle image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="d-block w-100 rounded shadow-neon" alt="Wellness lifestyle image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article Cards Section -->
+        <section class="my-5">
+            <h2 class="mb-4 text-neon">Latest in Wellness</h2>
+            <p class="mb-4 text-neon">Discover the latest trends in wellness, from meditation techniques to fitness tips that keep you grounded and healthy.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-light border-neon">
+                        <img src="https://i1.wp.com/trackyoga.app/wp-content/uploads/2018/10/chaturanga.jpg?fit=480%2C320&ssl=1"
+                             class="card-img-top rounded shadow-neon" alt="Fashion Article 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness</h5>
+                            <p class="card-text">Getting to Know Vinyasa Yoga, Here's a Guide to Movements and Their Benefits</p>
+                            <a href="https://hellosehat.com/kebugaran/kelenturan/vinyasa-yoga/" class="btn btn-neon">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-light border-neon">
+                        <img src="https://alchemlife.in/cdn/shop/articles/why-do-we-fart-flatulence-symptoms-causes-medicine_750x.jpg?v=1660380419"
+                             class="card-img-top rounded shadow-neon" alt="Fashion Article 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Health Information</h5>
+                            <p class="card-text">6 Possible Benefits of Smelling Fart</p>
+                            <a href="https://hellosehat.com/sehat/informasi-kesehatan/mencium-bau-kentut-ternyata-berpotensi-baik-untuk-kesehatan/" class="btn btn-neon">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-light border-neon">
+                        <img src="https://www.bing.com/images/blob?bcid=r5oM5PDuXaoHsw"
+                             class="card-img-top rounded shadow-neon" alt="Fashion Article 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness</h5>
+                            <p class="card-text">Dead Hang, Here's How to Do It and Its Benefits for the Body</p>
+                            <a href="https://www.popbela.com/fashion/style-trends/nafi-khoiriyah/ootd-hitam-putih-1" class="btn btn-neon">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Article Cards Section2 -->
+        <section class="my-5">
+            <h2 class="mb-4 text-neon">Explore Fashion & Trends</h2>
+            <p class="mb-4 text-neon">Stay ahead in fashion with insights into what's trending, sustainable fashion tips, and more.</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-light border-neon">
+                        <img src="https://image.popbela.com/content-images/post/20241024/9ac1d6c9ce2cd129f55e1218b7033293.png?width=750&format=webp&w=750"
+                             class="card-img-top rounded shadow-neon" alt="Fashion Article 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Style & Trends</h5>
+                            <p class="card-text">10 Simple Halloween Costumes for Cute and Spooky Women</p>
+                            <a href="https://www.popbela.com/fashion/style-trends/nafi-khoiriyah/kostum-halloween-simple-wanita" class="btn btn-neon">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-light border-neon">
+                        <img src="https://image.popbela.com/content-images/post/20241021/cover-celana-corduroy-glamourmx-ef7f4d098fbc1c87d729723ee55d6b75.png?width=750&format=webp&w=750"
+                             class="card-img-top rounded shadow-neon" alt="Fashion Article 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Style & Trends</h5>
+                            <p class="card-text">A Row of Trendy Branded Corduroy Pants that Grace the Runway Stage</p>
+                            <a href="https://www.popbela.com/fashion/style-trends/ardelia-karisa/deretan-celana-corduroy-branded-trendi-yang-hiasi-panggung-runway" class="btn btn-neon">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-light border-neon">
+                        <img src="https://image.popbela.com/content-images/post/20220902/160cdb2914e7aef12e15ce5617d9db14.png?width=750&format=webp&w=750"
+                             class="card-img-top rounded shadow-neon" alt="Fashion Article 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Style & Trends</h5>
+                            <p class="card-text">11 Black and White OOTDs to Look Fashionable and Contemporary</p>
+                            <a href="https://www.popbela.com/fashion/style-trends/nafi-khoiriyah/ootd-hitam-putih-1" class="btn btn-neon">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- About Section -->
+<section id="about" class="py-5 bg-dark text-light">
+    <div class="container text-center">
+        <h2 class="mb-3 text-neon">About</h2>
+        <p class="lead">At Lifestyle Hub, we are dedicated to bringing you the latest trends in fashion, wellness, and lifestyle. Our goal is to inspire you to live your best life while making informed choices that benefit both you and the planet.</p>
+        <p>Founded by a group of passionate individuals, Lifestyle Hub believes in the power of community and connection. We understand that lifestyle is not just about personal style or wellness routines; it's about fostering a sense of belonging and sharing knowledge that empowers others.</p>
+        <p>Our mission is to curate content that resonates with diverse audiences, providing insights that help you navigate the ever-evolving world of fashion and wellness. We strive to promote sustainable practices, celebrating brands that prioritize eco-friendly materials and ethical production.</p>
+        <p>Join us as we explore innovative ideas, tips, and insights into the world of lifestyle, ensuring you stay at the forefront of fashion and wellness. Together, we can cultivate a community that values health, creativity, and conscious living. Be a part of our journey to elevate your lifestyle and embrace positive change!</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-dark text-light">
+    <div class="container text-center">
+        <h2 class="mb-3 text-neon">Contact Us</h2>
+        <p class="lead">Have any questions or feedback? We'd love to hear from you!</p>
+        <button class="btn btn-neon" data-bs-toggle="modal" data-bs-target="#contactModal">Open Contact Form</button>
+    </div>
+</section>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light border-neon">
+            <div class="modal-header">
+                <h5 class="modal-title text-neon" id="contactModalLabel">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control bg-dark text-light border-neon" id="contactName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Your Email</label>
+                        <input type="email" class="form-control bg-dark text-light border-neon" id="contactEmail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Your Message</label>
+                        <textarea class="form-control bg-dark text-light border-neon" id="contactMessage" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-neon w-100" onclick="sendMessage(event)">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Subscribe Section -->
+    <section id="subscribe" class="bg-secondary py-5 border-top border-neon">
+        <div class="container text-center">
+            <h2 class="mb-3 text-neon animate-fade-in">Join Our Community</h2>
+            <p class="lead animate-fade-in">Subscribe for the latest lifestyle updates</p>
+            <form class="row g-3 justify-content-center animate-fade-in">
+                <div class="col-md-3">
+                    <input type="text" class="form-control bg-dark text-light border-neon" id="firstname" name="firstname" placeholder="First Name" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="email" class="form-control bg-dark text-light border-neon" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit
+                    <button type="submit" class="btn btn-neon w-100" onclick="subscribeAlert(event)">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 border-top border-neon">
+        <div class="container text-center">
+            <div class="social-icons mb-3">
+                <a href="https://www.instagram.com" target="_blank" class="text-neon mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com" target="_blank" class="text-neon mx-2"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="text-neon mx-2"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="text-neon mx-2"><i class="fab fa-youtube"></i></a>
+            </div>
+            <small>
+                <a href="#" class="text-neon me-3">Privacy Policy</a> |
+                <a href="#" class="text-neon ms-3">Terms & Conditions</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Particles JS -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

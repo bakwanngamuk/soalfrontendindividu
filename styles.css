@@ -1,0 +1,84 @@
+/* Body Background Gradient */
+body.bg-gradient {
+    background: linear-gradient(45deg, #1d1f21, #232527, #202224);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Neon Text and Borders */
+.text-neon, .btn-neon {
+    color: #00ffff;
+}
+
+.border-neon {
+    border-color: #00ffff !important;
+}
+
+.btn-neon {
+    background-color: #00ffff;
+    color: #1e1e1e;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.btn-neon:hover {
+    background-color: #00ccff;
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.7);
+}
+
+.shadow-neon {
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2), 0 6px 20px rgba(0, 255, 255, 0.19);
+}
+
+/* Fade-in Animation */
+.animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+/* Particles Background */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: transparent;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    font-size: 1.5rem;
+    color: #00ffff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #00ccff;
+    text-shadow: 0 0 8px #00ffff, 0 0 15px rgba(0, 204, 255, 0.5);
+}
+
+/* Styles for the sticky navbar */
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Pastikan navbar berada di atas konten lainnya */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang dan bayangan */
+}
+
+.sticky-navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang saat di-scroll */
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.5); /* Tambahkan bayangan untuk efek lebih jelas */
+}
